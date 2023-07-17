@@ -89,7 +89,7 @@ int main(int argc, const char *argv[]) {
         bench(rounds);
     }
     if (clock_gettime(CLOCK_MONOTONIC, &end_time) != 0) {
-        fprintf(stderr, "Couldn't get start time.\n");
+        fprintf(stderr, "Couldn't get end time.\n");
         return -8;
     }
     timespec_diff(&end_time, &start_time, &duration_time);
