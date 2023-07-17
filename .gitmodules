@@ -1,0 +1,3 @@
+[submodule "3rdparty/apple-openssh"]
+	path = 3rdparty/apple-openssh
+	url = https://github.com/apple-oss-distributions/OpenSSH
